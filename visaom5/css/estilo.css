@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    
+}
+
+html body {
+    background-color: black;
+}
+
+#discografia a {
+    text-decoration: none;
+}
+
+#discografia .card {
+    max-width: 220px;
+}
+
+#agenda {
+    position: relative;
+	background-image: url(../img/01reginopoles.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#agenda .list-group .list-group-item {
+    background-color: rgba(0, 0, 0, .25);
+    color: white;
+}
+
+#contatos {
+    height: auto;
+    background-color: rgb(235, 220, 220);
+}
+
+footer {
+	background: #000;
+	
+	position: relative;
+}
+
+@media(min-width: 768px){
+    #slidetopo .carousel-inner {
+        height: 100vh;
+    }
+}
